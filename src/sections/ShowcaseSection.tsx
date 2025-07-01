@@ -153,7 +153,7 @@ const AppShowcase = () => {
 
               <h2 className="mt-4">Musify – Music Streaming Interface</h2>
               <p className="text-white-50 md:text-base">
-                A frontend music UI built with HTML, CSS, and JavaScript that mimics modern music platforms.
+                A music player built with Php, HTML, CSS, and JavaScript that mimics modern music platforms.
               </p>
             </div>
 

@@ -74,20 +74,21 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Quality-Focused Developer",
+    desc: "Consistently strive to deliver high-quality, scalable code with attention to detail.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Effective Collaborator",
+    desc: "Work closely with cross-functional teams to ensure clarity and transparency throughout the project lifecycle.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Timely Execution",
+    desc: "Prioritize deadlines and ensure that key project milestones are met without compromising quality.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -239,18 +240,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/_its_me_pratiky__/"
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: "https://www.facebook.com/profile.php?id=100008288866811"
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "git",
+    imgPath: "/images/git.png",
+    link: "https://github.com/pratikviper"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/pratik-yawalkar-1599a82a4/"
   },
 ];
 

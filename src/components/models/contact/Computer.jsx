@@ -1,4 +1,5 @@
 import { useGLTF } from "@react-three/drei";
+import { Suspense } from "react";
 
 export function Computer(props) {
   const { nodes, materials } = useGLTF(
@@ -6,6 +7,7 @@ export function Computer(props) {
   );
 
   return (
+    <Suspense>
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
         <mesh
@@ -22,6 +24,7 @@ export function Computer(props) {
         />
       </group>
     </group>
+    </Suspense>
   );
 }
 
