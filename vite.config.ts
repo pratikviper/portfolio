@@ -5,7 +5,8 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import netlify from "@netlify/vite-plugin";
 
 export default defineConfig(
-  { 
+  {
+    base: './',
     plugins: [
       react(), 
       tsconfigPaths(),
