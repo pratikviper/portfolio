@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/NavBar';
 import Hero from '@/sections/Hero'
 import ShowcaseSection from '@/sections/ShowcaseSection'
 // import LogoShowcase from '@/sections/LogoShowcase'
