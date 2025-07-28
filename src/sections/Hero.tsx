@@ -75,6 +75,7 @@ const Hero = () => {
         src="/images/optimized-room.png"
         alt="Workspace"
         className="w-full h-full object-cover rounded-full border-4 border-black shadow-lg"
+        loading="lazy"
       />
       {/* Black curved SVG at bottom */}
       <svg
