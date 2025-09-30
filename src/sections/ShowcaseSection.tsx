@@ -60,7 +60,7 @@ const AppShowcase = () => {
             <div className="image-wrapper relative">
               <img src="/images/project1.png" alt="YouTellMe App" />
               <a
-                href="https://github.com/pratikviper/youtellme_new_frontend"
+                href="https://github.com/pratikviper/tellme360media"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-2 right-2 text-white hover:text-gray-300"
@@ -71,7 +71,7 @@ const AppShowcase = () => {
             <div className="text-content">
               <h2 className="flex items-center gap-4 flex-wrap">
                 <a
-                  href="https://tellmedigi.com/"
+                  href="https://tellme360.media/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-blue-400 underline hover:text-blue-300"
