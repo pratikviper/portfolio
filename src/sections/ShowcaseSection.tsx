@@ -70,14 +70,14 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2 className="flex items-center gap-4 flex-wrap">
-                <a
+                {/* <a
                   href="https://tellme360.media/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-blue-400 underline hover:text-blue-300"
                 >
                   Live Site
-                </a>
+                </a> */}
                 YouTellMe – Media Marketplace
               </h2>
               <p className="text-white-50 md:text-xl">
