@@ -69,8 +69,8 @@ const Hero = () => {
 
         {/* RIGHT: Portrait with background glow */}
         <figure>
-  <div className="w-full flex justify-center items-center absolute top-130 right-0 xl:absolute md:top-150 xl:top-40 2xl:top-32 xl:right-0 xl:w-[50%] 2xl:w-[55%] mt-10 xl:mt-0">
-    <div className="animated-hero-wrapper relative flex items-center justify-center w-[80vw] sm:w-[340px] md:w-[440px] lg:w-[480px] xl:w-[540px] max-w-[92vw]">
+  <div className="w-full flex justify-center items-center absolute top-120 right-0 xl:absolute md:top-150 xl:top-40 2xl:top-32 xl:right-0 xl:w-[50%] 2xl:w-[55%] mt-10 xl:mt-0">
+    <div className="animated-hero-wrapper relative flex items-center justify-center w-[56vw] sm:w-[300px] md:w-[440px] lg:w-[480px] xl:w-[540px] max-w-[92vw]">
       {/* Blue background glow (paints behind the portrait via DOM order) */}
       <div
         aria-hidden="true"
