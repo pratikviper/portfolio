@@ -67,27 +67,31 @@ const Hero = () => {
           </div>
         </header>
 
-        {/* RIGHT: Animated Circular Image */}
+        {/* RIGHT: Portrait with background glow */}
         <figure>
-  <div className="w-full flex justify-center items-center absolute top-110 right-0 xl:absolute md:top-130 xl:top-50 2xl:top-20 xl:right-0 xl:w-[50%] 2xl:w-[55%] mt-10 xl:mt-0">
-    <div className="animated-hero-wrapper relative w-[70vw] sm:w-[240px] md:w-[340px] lg:w-[360px] xl:w-[400px] max-w-[90vw] aspect-square rounded-full border-[6px] border-white animate-spin-slow p-2 bg-black/20">
+  <div className="w-full flex justify-center items-center absolute top-130 right-0 xl:absolute md:top-150 xl:top-40 2xl:top-32 xl:right-0 xl:w-[50%] 2xl:w-[55%] mt-10 xl:mt-0">
+    <div className="animated-hero-wrapper relative flex items-center justify-center w-[80vw] sm:w-[340px] md:w-[440px] lg:w-[480px] xl:w-[540px] max-w-[92vw]">
+      {/* Blue background glow (paints behind the portrait via DOM order) */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 z-0 flex items-center justify-center -translate-y-[8%]"
+      >
+        <div
+          className="w-[120%] aspect-square rounded-full blur-[70px] opacity-95"
+          style={{
+            background:
+              "radial-gradient(circle, #60a5fa 0%, #2563eb 35%, #1e3a8a 55%, transparent 70%)",
+          }}
+        />
+      </div>
+
+      {/* Portrait cutout */}
       <img
-        src="/images/optimized-room.png"
-        alt="Workspace"
-        className="w-full h-full object-cover rounded-full border-4 border-black shadow-lg"
+        src="/images/myself.png"
+        alt="Pratik Yawalkar"
+        className="relative z-[1] w-full h-auto object-contain drop-shadow-2xl"
         loading="lazy"
       />
-      {/* Black curved SVG at bottom */}
-      <svg
-        className="absolute -bottom-3 left-1/2 -translate-x-1/2 z-[-1]"
-        width="100"
-        height="30"
-        viewBox="0 0 100 30"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M0,0 C50,60 50,60 100,0" fill="black" />
-      </svg>
     </div>
   </div>
 </figure>
