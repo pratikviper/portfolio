@@ -13,7 +13,7 @@ const navLinks = [
   },
   {
     name: "Resume",
-    link: "#resume",
+    link: "/resume",
   },
   // {
   //   name: "Testimonials",
