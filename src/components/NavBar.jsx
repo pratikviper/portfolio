@@ -39,6 +39,12 @@ const NavBar = () => {
                 </a>
               </li>
             ))}
+            <li className="group">
+              <a href="/Pratik-Yawalkar-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+                <span className="underline" />
+              </a>
+            </li>
           </ul>
         </nav>
 

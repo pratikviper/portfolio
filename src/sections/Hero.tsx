@@ -59,11 +59,21 @@ const Hero = () => {
               Hi, I’m Pratik, a full stack developer from Pune turning ideas into scalable web experiences.
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+            <div className="flex flex-wrap items-center gap-4">
+              <Button
+                text="See My Work"
+                className="md:w-80 md:h-16 w-60 h-12"
+                id="counter"
+              />
+              <a
+                href="/Pratik-Yawalkar-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 md:h-16 h-12 px-8 rounded-full border border-white/30 text-white-50 hover:bg-white/10 hover:text-white transition-colors md:text-lg font-semibold"
+              >
+                Resume
+              </a>
+            </div>
           </div>
         </header>
 
