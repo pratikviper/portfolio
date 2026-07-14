@@ -7,6 +7,7 @@ import ShowcaseSection from "@/sections/ShowcaseSection";
 import FeatureCards from "@/sections/FeatureCards";
 import Experience from "@/sections/Experience";
 import TechStack from "@/sections/TechStack";
+import Resume from "@/sections/Resume";
 // import Testimonials from '@/sections/Testimonials'
 import Contact from "@/sections/Contact";
 import Footer from "@/sections/Footer";
@@ -21,6 +22,7 @@ export default function Home() {
       <FeatureCards />
       <Experience />
       <TechStack />
+      <Resume />
       {/* <Testimonials /> */}
       <Contact />
       <Footer />

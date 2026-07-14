@@ -66,9 +66,7 @@ const Hero = () => {
                 id="counter"
               />
               <a
-                href="/Pratik-Yawalkar-Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#resume"
                 className="inline-flex items-center justify-center gap-2 md:h-16 h-12 px-8 rounded-full border border-white/30 text-white-50 hover:bg-white/10 hover:text-white transition-colors md:text-lg font-semibold"
               >
                 Resume

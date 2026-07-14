@@ -11,6 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
+  {
+    name: "Resume",
+    link: "#resume",
+  },
   // {
   //   name: "Testimonials",
   //   link: "#testimonials",
